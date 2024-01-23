@@ -1,10 +1,16 @@
-const form = document.querySelector('.feedback-form');
-const input = document.querySelector('.form-input');
-const textarea = document.querySelector('.form-textarea');
-const button = document.querySelector('form-buttton');
+const form = document.querySelector(".feedback-form");
+const input = document.querySelector("input");
+const textarea = document.querySelector("textarea");
+const button = document.querySelector("button");
+const labels = document.querySelectorAll("label");
 input.classList.add("mail");
 textarea.classList.add("text");
 button.classList.add("btn");
+
+for (let item of labels) {
+  item.classList.add("label");
+}
+
 
 const localStorageKey = 'feedback-form-state';
 form.addEventListener('input', saveToLS);
