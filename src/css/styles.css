@@ -55,7 +55,7 @@ li {
   gap: 16px;
 }
 
-.label {
+label {
   display: flex;
   flex-direction: column;
   gap: 8px;
@@ -68,7 +68,7 @@ li {
   letter-spacing: 0.64px;
   
 }
-.mail {
+input {
   color: #2E2F42;
   font-family: Montserrat;
   font-size: 16px;
@@ -87,12 +87,12 @@ li {
   padding-top: 8px;
   padding-bottom: 8px;
 }
-.mail:hover, 
-.mail:focus {
+input:hover, 
+input:focus {
   border: 1px solid #000;
 }
 
-.mail::placeholder {
+input::placeholder {
   color: #2E2F42;
   font-family: Montserrat;
   font-size: 16px;
@@ -101,7 +101,7 @@ li {
   line-height: 24px;
   letter-spacing: 0.64px;
 }
-.text {
+textarea {
   color: #2E2F42;
   font-family: Montserrat;
   font-size: 16px;
@@ -121,8 +121,8 @@ li {
   border: 1px solid #808080;
 }
 
-.text:hover,
-.text:focus {
+textarea:hover,
+textarea:focus {
   border: 1px solid #000;
 }
 .btn {
